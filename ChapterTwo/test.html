@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chapter Two: Test</title>
+
+    <link rel="shortcut icon" type="image/png" href="/bower_components/jasmine/images/jasmine_favicon.png">
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap-theme.css">
+</head>
+<body>
+<section class="container">
+    <section>
+
+        <form action="" id="arrayForm">
+            <fieldset>
+                <legend>Arrays</legend>
+            </fieldset>
+            <div class="hide alert alert-danger" id="errorHolderArray"></div>
+            <div class="hide alert alert-success" id="successHolderArray"></div>
+            <div class="form-group">
+                <label for="arrayPush">What method adds an element to the <b>end</b> of an array? (one)</label>
+                <select class="form-control" size="5" name="arrayPush" id="arrayPush" required>
+                    <option value="shift">shift</option>
+                    <option value="pop">pop</option>
+                    <option value="unshift">unshift</option>
+                    <option value="push">push</option>
+                    <option value="concat">concat</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="arrShift">What is the value of x after the shift operation?</label>
+                <pre><code>
+  var arr = ["Bill", 'brand', 'jim'],
+     x = arr.shift();
+                </code></pre>
+                <input type="text" class="form-control" required name="arrShift" id="arrShift">
+            </div>
+
+            <div class="form-group">
+                <label for="arrJoin">What is the value of x after the join operation?</label>
+                <pre><code>
+  var arr = ["Bill", 'brand', 'jim'],
+     x = arr.join(',');
+                </code></pre>
+                <input type="text" class="form-control" required name="arrJoin" id="arrJoin">
+            </div>
+
+            <input type="submit" class="btn btn-primary" value="Check Array Answers Names">
+        </form>
+    </section>
+
+</section>
+<script src="/bower_components/jquery/dist/jquery.js"></script>
+<script src="/bower_components/bootstrap/dist/js/bootstrap.js"></script>
+<script src="/ChapterTwo/src/test.js"></script>
+</body>
+</html>

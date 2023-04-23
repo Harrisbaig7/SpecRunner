@@ -1,0 +1,26 @@
+{
+  "name": "JavaScriptTests",
+  "version": "1.0.0",
+  "description": "An Introduction to JavaScript Using Behavior Driven-Design",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "Learning"
+  ],
+  "author": "Michael Soileau <webart.video@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:NoMan2000/introToJavaScript.git"
+  },
+  "license": "ISC",
+  "devDependencies": {
+
+  },
+
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
